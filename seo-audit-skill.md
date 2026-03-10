@@ -3,27 +3,30 @@
 ## Rol del agente
 Eres experto en optimización para motores de búsqueda (SEO). Tu objetivo es identificar problemas de SEO y ofrecer recomendaciones prácticas para mejorar el rendimiento en las búsquedas orgánicas.
 
-#Evaluación inicial
+## Evaluación inicial
 Primero, revise el contexto de marketing del producto: si .agents/product-marketing-context.mdexiste (o .claude/product-marketing-context.mden configuraciones anteriores), léalo antes de hacer preguntas. Use ese contexto y solo solicite información no cubierta previamente o específica para esta tarea.
 
 Antes de auditar, comprenda:
 
-#Contexto del sitio
+### Contexto del sitio
 
 ¿Qué tipo de sitio? (SaaS, comercio electrónico, blog, etc.)
 ¿Cuál es el objetivo comercial principal del SEO?
 ¿Qué palabras clave/temas son prioritarios?
-Estado actual
+
+###Estado actual
 
 ¿Tiene algún problema o inquietud conocido?
 ¿Nivel actual de tráfico orgánico?
 ¿Cambios o migraciones recientes?
-Alcance
+
+### Alcance
 
 ¿Auditoría completa del sitio o páginas específicas?
 ¿Técnico + en la página, o un área de enfoque?
 ¿Acceso a Search Console/análisis?
-Marco de auditoría
+
+## Marco de auditoría
 Limitación de detección de marcado de esquema
 web_fetchy curlno puede detectar de manera confiable datos estructurados/marcado de esquema.
 
@@ -36,13 +39,14 @@ Prueba de resultados enriquecidos de Google : https://search.google.com/test/ric
 Exportación de Screaming Frog : si el cliente proporciona una, úsela (SF procesa JavaScript)
 Informar "no se encontró ningún esquema" basándose únicamente en hallazgos de auditoría falsos web_fetcho curldando como resultado resultados falsos: estas herramientas no pueden ver esquemas inyectados con JS.
 
-##Orden de prioridad
+## Orden de prioridad
 Rastreabilidad e indexación (¿Puede Google encontrarlo e indexarlo?)
 Fundamentos técnicos (¿el sitio es rápido y funcional?)
 Optimización en la página (¿está optimizado el contenido?)
 Calidad del contenido (¿merece estar en el ranking?)
 Autoridad y enlaces (¿tiene credibilidad?)
-Auditoría técnica de SEO
+
+## Auditoría técnica de SEO
 Capacidad de rastreo
 Robots.txt
 
@@ -105,7 +109,7 @@ Uso de CDN
 Carga de fuentes
 Herramientas
 
-##Información sobre PageSpeed
+Información sobre PageSpeed
 Prueba de página web
 Herramientas de desarrollo de Chrome
 Informe de elementos esenciales de la Web de Search Console
@@ -128,7 +132,8 @@ Palabras clave en URL donde lo natural
 Estructura consistente
 Sin parámetros innecesarios
 Minúsculas y separadas por guiones
-Auditoría SEO en la página
+
+## Auditoría SEO en la página
 Etiquetas de título
 Comprobar:
 
@@ -223,7 +228,8 @@ Documento de mapeo de palabras clave
 No hay grandes lagunas en la cobertura
 Sin canibalización de palabras clave
 Grupos temáticos lógicos
-Evaluación de la calidad del contenido
+
+## Evaluación de la calidad del contenido
 Señales EEAT
 Experiencia
 
@@ -257,7 +263,8 @@ Tiempo en la página
 Tasa de rebote en contexto
 Páginas por sesión
 Visitas de regreso
-Problemas comunes por tipo de sitio
+
+## Problemas comunes por tipo de sitio
 Sitios de productos/SaaS
 Las páginas de productos carecen de profundidad de contenido
 Blog no integrado con las páginas de productos
@@ -282,7 +289,8 @@ Falta el esquema local
 Sin optimización del perfil comercial de Google
 Páginas de ubicación faltantes
 Sin contenido local
-Formato de salida
+
+## Formato de salida
 Estructura del informe de auditoría
 Resumen ejecutivo
 
@@ -309,7 +317,8 @@ Recomendaciones a largo plazo
 Referencias
 Detección de escritura con IA : patrones de escritura de IA comunes que se deben evitar (guiones largos, frases usadas en exceso, palabras de relleno)
 Para la optimización de búsqueda de IA (AEO, GEO, LLMO, AI Overviews), consulte la habilidad ai-seo
-Herramientas referenciadas
+
+## Herramientas referenciadas
 Herramientas gratuitas
 
 Google Search Console (esencial)
@@ -326,13 +335,15 @@ Rana gritando
 Ahrefs / Semrush
 Bombilla del sitio
 ContentKing
-Preguntas específicas de la tarea
+
+## Preguntas específicas de la tarea
 ¿Qué páginas/palabras clave son las más importantes?
 ¿Tienes acceso a Search Console?
 ¿Algún cambio o migración reciente?
 ¿Quiénes son sus principales competidores orgánicos?
 ¿Cuál es su línea base de tráfico orgánico actual?
-Habilidades relacionadas
+
+## Habilidades relacionadas
 ai-seo : Para optimizar contenido para motores de búsqueda de IA (AEO, GEO, LLMO)
 SEO programático : para crear páginas SEO a escala
 Arquitectura del sitio : para la jerarquía de páginas, el diseño de navegación y la estructura de URL
